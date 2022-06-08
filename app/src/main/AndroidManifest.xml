@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodby">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/foodby_logo"
+        android:label="FOODBY"
+        android:roundIcon="@drawable/foodby_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FOODBY">
+        <activity android:name=".Pan"></activity>
+        <activity android:name=".Chaskas" />
+        <activity android:name=".Papas" />
+        <activity android:name=".Galletas" />
+        <activity android:name=".BotanasPopulares" />
+        <activity android:name=".Refresco" />
+        <activity android:name=".Jugo" />
+        <activity android:name=".Yogurt" />
+        <activity android:name=".Agua" />
+        <activity android:name=".BebidasPopulares" />
+        <activity
+            android:name=".Pizza"
+            android:label="Pizza" />
+        <activity
+            android:name=".Bionicos"
+            android:label="Bionicos" />
+        <activity
+            android:name=".Ensalada"
+            android:label="Ensaladas" />
+        <activity
+            android:name=".Hamburguesa"
+            android:label="Hamburguesas" />
+        <activity
+            android:name=".Sandwich"
+            android:label="Sandwich" />
+        <activity
+            android:name=".Guisados"
+            android:label="Guisados" />
+        <activity
+            android:name=".ComidasPopulares"
+            android:label="Comidas Populares" />
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.FOODBY.NoActionBar" />
+        <activity android:name=".Registrarse" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="FOODBY">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
